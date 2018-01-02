@@ -7,6 +7,18 @@ En este _Widget_ se implementa como adicionar una capa nueva al mapa, para este 
 
 ## Como Instalar
 
-1. Copiar contenido del widget en ´[web app builder]\client\stemapp\widgets´
+1. Copiar carpeta del widget en `[web app builder]\client\stemapp\widgets`
+2. modificar archivo de configuracion `config.json` o `config-demo.json` en este se debe registrar el widget \
+
+``` json
+
+ "widgets": [
+	{
+      "label": "AddWMS_Service",
+      "uri": "widgets/AddWMS_Service/Widget"
+    }
+```
+
+
 
 
